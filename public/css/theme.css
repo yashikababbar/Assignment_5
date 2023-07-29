@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(to right, #74c2cc, #f3d9c0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+    color: #3b396f;
+  }
+  
+  a {
+    color: #5c8dbc;
+    text-decoration: none;
+  }
+  
+  .navbar-light .navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    color: #3b396f;
+    text-shadow: 1px 1px 2px #ddd;
+  }
+  
+  .btn-primary {
+    background-color: #5c8dbc;
+    border-color: #5c8dbc;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px 2px #000;
+  }
+  
+  .btn-primary:hover {
+    background-color: #7fa7cf;
+    border-color: #7fa7cf;
+  }
+  
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table.table tr:nth-child(odd) td {
+    background-color: #d9d8eb;
+    color: #3b396f;
+  }
+  
+  legend {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-bottom: 2px solid #5c8dbc;
+  }
+  
+  input[type="text"],
+  textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .bg-light {
+    background-color: #f3d9c0 !important;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #5c8dbc;
+    font-size: 28px;
+  }
+  
+  a {
+    color: #3b396f;
+  }
+  
+  .btn-primary {
+    background-color: #5c8dbc;
+    border-color: #5c8dbc;
+  }
+  
+  table.table tr:nth-child(odd) td {
+    background-color: #f3d9c0;
+    color: #5c8dbc;
+  }
+  
